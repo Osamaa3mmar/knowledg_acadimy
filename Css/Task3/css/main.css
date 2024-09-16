@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+}
+h1{
+    margin-top: 20px;
+    
+    margin-bottom: 30px;
+    
+}
+.container{
+ width: 90%;
+ margin: auto ;
+
+}
+.cards{
+   
+    text-align: center;
+}
+.item{
+    width: 20%;
+    
+    float: left;
+    border: 2px solid;
+margin: 5px;
+padding: 5px;
+}
+img{
+    width: 100%;
+    
+}
+h2{
+    margin :5px 0px;
+    text-align: left;
+}
+.clr{
+    clear: left;
+}
+.item p {
+    text-align: left;
+    margin: 5px 0px;
+}
+.price{
+    margin-bottom: 15px;
+}
+.price h3 {
+    color: green;
+    float: left;
+    margin-right: 10px;
+}
+.price p{
+    text-decoration: line-through;
+    color: red;
+   
+}
+
+
+.btns .addTo{
+    background-color:#017bfd ;
+    float: left;
+    width: 75%;
+    text-align: center;
+    padding: 5px;
+
+}
+.btns .addTo i{
+float: left;
+color: snow;
+margin-left: 10%;
+margin-right: 5%;
+padding: 4px;
+}
+.btns .addTo h3{
+color: snow;
+text-align: left;
+padding: 4px;
+}
+.btns .fa-heart{
+    color: #017bfd;
+    padding: 10px;
+    border: 2px solid #017bfd;
+}
+

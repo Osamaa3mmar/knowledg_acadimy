@@ -1,0 +1,18 @@
+.section{
+    background-color: #222;
+    color: snow;
+    text-align: center;
+}
+.serv
+{
+    background-color: red;
+}
+.serv-item
+{
+    float: left;
+    width: 25%;
+    background-color: aqua;
+}
+.clr{
+    clear: left;
+}

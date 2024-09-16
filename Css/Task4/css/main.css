@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 3000px;
+}
+.navbar{
+    background-color:teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo p{
+    font-size: 30px;
+    font-family: Pacifico;
+    color:cornsilk;
+}
+.list{
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+li{
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border:1px solid snow;
+}
+li a{
+    text-decoration: none;
+    color: snow;
+    font-family: "Varela Round";
+}
+li i {
+    color:cornsilk;
+}
+.section1{
+    background-color: #222;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card{
+    width: 20%;
+    
+    padding: 5px;
+    text-align: center;
+}
+.card h3{
+    font-family: "Varela Round";
+    color: cornsilk;
+    margin-bottom:15px;
+    margin-top: 5px;
+}
+.card p {
+    color: snow;
+}
+.front-end{
+    border-top: 2px solid skyblue;
+    background-color: rgba(135, 206, 235,0.1);
+}
+.back-end{
+    border-top: 2px solid orange;
+    background-color: rgba(255, 165, 0,0.1);
+}
+.Ui-Ux{
+    border-top: 2px solid blueviolet;
+    background-color: rgba(138, 43, 226,0.1);
+}
