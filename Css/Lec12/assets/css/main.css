@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin:0px ;
+}
+
+.parent{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chiled{
+    width: 200px;
+    height: 200px;
+    background-image: url("./../img/food4.jpg");
+    transform: skew(200deg);
+}
+.chiled h2{
+    color:snow;
+    transform: skew(-200deg);
+}

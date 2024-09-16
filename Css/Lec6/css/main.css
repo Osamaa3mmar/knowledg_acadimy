@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;
+}
+.hero{
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    position: sticky;
+    right: 20px;
+    
+    bottom: 10px;
+}

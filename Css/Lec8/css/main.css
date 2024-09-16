@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.items{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-self: unset;
+    align-content: start;
+}
+.item{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    height: fit-content;
+    background-color: skyblue;
+    flex-direction: row-reverse;
+    
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: #eee;
+}
+.header{
+    padding: 15px 0px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.6);
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:35px;
+}
+.logo p{
+    font-family:var(--thrdfont) ;
+    margin-left: 8px;
+    color: var(--maincolor);
+    font-weight: 600;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.navbar ul li:first-of-type{
+    font-weight: 700;
+    
+}
+.navbar ul li a{
+    color:#101928;
+    font-family: var(--mainfont);
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Buttons .btn{
+    font-family: var(--secfont);
+    border:2px solid var(--maincolor);
+    text-align: center;
+    padding: 8px 35px;
+    width: 75px;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.login-btn{
+    color: var(--maincolor);
+}
+.Register-btn{
+    color: #fff;
+    background-color: var(--maincolor);
+}
+.bar-icon{
+    display: none;
+    font-size: 24px;
+}
+@media  screen and (min-width:0px) and (max-width:1028px) {
+    .Buttons{
+        display: none;
+
+    }
+    .navbar{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+    }
+
+}

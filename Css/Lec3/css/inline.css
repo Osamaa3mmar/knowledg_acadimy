@@ -1,0 +1,17 @@
+.section{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+}
+
+
+.list,.navH{
+    display: inline-block;
+    width:40%;
+}
+.list-item{
+    display: inline-block;
+    width: 18%;
+}

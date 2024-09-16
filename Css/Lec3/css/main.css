@@ -1,0 +1,12 @@
+.section{
+    text-align: center;
+    background-color: aqua;
+}
+.card{
+    float: left;
+    width: 30%;
+    
+}
+.clr{
+    clear: left;
+}

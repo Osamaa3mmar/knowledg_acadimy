@@ -1,0 +1,22 @@
+*{
+    color: snow;
+
+}
+body{
+    background-color: black;
+}
+.top{
+    text-align: center;
+}
+.card{
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+.clr{
+    clear: left;
+}
+i{
+    float: left;
+    width: 30%;
+}

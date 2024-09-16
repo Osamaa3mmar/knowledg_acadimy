@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+.parent{
+    background-color: antiquewhite;
+    width: 1000px;
+    display: flex;
+   
+    
+    margin: auto;
+}
+.test{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    
+}
+.t1{
+    background: #000;
+}
+.t4{
+    background: red;
+}
+.t2{
+    background: green;
+}
+.t3{
+    background: #000;
+}
+

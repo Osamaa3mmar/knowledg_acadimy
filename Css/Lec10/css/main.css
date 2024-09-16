@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    height: 500px;
+    background-color: blue;
+    background-image: url("./../image/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
