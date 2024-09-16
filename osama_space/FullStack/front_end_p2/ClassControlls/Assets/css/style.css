@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.drop-down{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+.drop-btn{
+    width: 200px;
+    padding: 5px 0px;
+    font-size: 20px;
+    color: snow;
+    background-color: black;
+    
+    border: none;
+    font-family: "Inria Sans";
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+}
+.drop-down-items{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+   position: relative;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    transform: translate(0px, -35px);
+    z-index: -1;
+    opacity: 0;
+    
+   
+}
+.drop-down-item{
+    background-color: #222;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: Roboto;
+    text-decoration: none;
+    color: snow;
+    
+}
+.drop-down-item:hover{
+    background-color: rgb(121, 121, 121);
+}
+.animation{
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes animation {
+    0%{
+
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+        display: flex;
+        z-index: 0;
+    }
+}
+
+
